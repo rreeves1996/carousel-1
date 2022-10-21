@@ -9,13 +9,13 @@ export default function NavBar() {
       <div className={collapsed ? "navbar-toggler" : "navbar-toggler open"} onClick={() => toggleCollapse(!collapsed)}>
         <i className="fa-solid fa-bars"></i><i className="fa-solid fa-chevron-down navbar-hover-arrow"></i>
         <div className={!collapsed ? "nav-link-container" : "nav-link-container collapse"}>
-          <Link to='/about' className='nav-button' id='about-button'>
+          <Link to='/' className='nav-button' id='about-button'>
             <div className='about-link'>About</div>
           </Link>
-          <Link to='/contact' className='nav-button' id='contact-button'>
+          <Link to='/' className='nav-button' id='contact-button'>
             <div className='contact-link'>Contact</div>
           </Link>
-          <Link to='/login' className='nav-button' id='login-button'>
+          <Link to='/' className='nav-button' id='login-button'>
             <div className='login-link'>Login</div>
           </Link>
         </div>
