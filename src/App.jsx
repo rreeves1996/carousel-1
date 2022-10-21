@@ -1,14 +1,18 @@
 import React from "react";
-import Container from "./components/Container";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
+import Carousel from "./components/Carousel";
 import "./assets/style/style.css"
 
 
 function App() {
   return (
     <>
-      <main>
-        <Container />
-      </main>
+      <NavBar />
+        <main>
+          <Carousel />
+        </main>
+      <Footer />
     </>
   )
 }
