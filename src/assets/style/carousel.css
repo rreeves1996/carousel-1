@@ -1,10 +1,26 @@
+.carousel-container {
+    width: 500px;
+    height: 300px;
+    background-color: red;
+    overflow: hidden;
+}
 .cell-container {
-    background-color: var(--off-black);
+    
+    display: flex;  align-items: center;    justify-content: center;
+    background-color: #151515;
     font-family: 'Lora', serif;
     color: white;
-    width: 300px; height: 300px;
+    height: 100%;
+}
+#left, #right {
+    position: absolute;
+}
+.cell-card {
+    position: absolute;
+    width: 210px;
+    height: 250px;
 }
 .cell-img {
     width: 90%;
-    height: 70%;
+    height: 75%;
 }
